@@ -1,8 +1,9 @@
 {
   "name": "nodejs-hw",
   "version": "1.0.0",
-  "description": "",
+  "description": "GoIT - Node.js",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
@@ -15,7 +16,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/roman-yakubovskyi/nodejs-hw/issues"
   },
@@ -30,6 +30,7 @@
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "helmet": "^8.1.0",
     "pino-http": "^11.0.0",
     "pino-pretty": "^13.1.3"
   }
