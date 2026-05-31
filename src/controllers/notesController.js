@@ -70,7 +70,7 @@ export const createNote = async (req, res) => {
     ...req.body,
     userId: req.user._id,
   });
-
+  0;
   res.status(201).json(note);
 };
 
