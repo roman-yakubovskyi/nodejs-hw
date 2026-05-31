@@ -16,7 +16,7 @@ export const getAllNotes = async (req, res) => {
   const skip = (page - 1) * perPage;
 
   const notesQuery = Note.find({
-    userId: req.user._id, // Пошук по id користувача
+    userId: req.user._id,
   });
 
   if (tag) {
